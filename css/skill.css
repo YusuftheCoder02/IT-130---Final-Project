@@ -212,40 +212,8 @@
     transition: color 0.3s ease;
 }
 
-#html:hover {
-    border-color: #E44D26;
-    background-color: #F16529;
-    box-shadow: 0 0 10px #E44D26;
-}
-
-#css:hover {
-    border-color: #1572B6;
-    background-color: #2965F1;
-    box-shadow: 0 0 10px #1572B6;
-}
-
-#js:hover {
-    border-color: #F7DF1E;
-    background-color: #F0DB4F;
-    box-shadow: 0 0 10px #F7DF1E;
-}
-
-#python:hover {
-    border-color: #306998;
-    background-color: #4B8BBE;
-    box-shadow: 0 0 10px #306998;
-}
-
-#git:hover {
-    border-color: #F05032;
-    background-color: #F1502F;
-    box-shadow: 0 0 10px #F05032;
-}
-
-#github:hover {
-    border-color: #333;
-    background-color: #24292E;
-    box-shadow: 0 0 10px #333;
+.skill-card:hover {
+    background-color: var(--accent-purple-dark);
 }
 
 /* -------------- */

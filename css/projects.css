@@ -18,3 +18,12 @@
     --projects-icon: #FFFFFF;
 }
 
+.projects-container {
+    margin: 25px 0 auto;
+    padding: 40px 20px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
